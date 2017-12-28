@@ -42,7 +42,9 @@ public class JDBCBasics {
 	 */
 	public void testSelect() throws SQLException {
 		ResultSet rs = db.executeQuery("SELECT * FROM book LIMIT 100 OFFSET 0");
-		while(rs.next()) printRow(rs);
+		while(rs.next()) {
+			printRow(rs);
+		}
 	}
 
 	/**
