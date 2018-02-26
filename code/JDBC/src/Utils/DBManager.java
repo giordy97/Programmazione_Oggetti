@@ -37,9 +37,9 @@ public class DBManager {
 	 * @throws SQLException
 	 */
 	public void open() throws ClassNotFoundException, SQLException {
-		Class.forName(JDBCDriverMySQL);
-		connection = DriverManager.getConnection(JDBCURLMySQL);
-		statement = connection.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
+		Class.forName(JDBCDriverSQLite);
+		connection = DriverManager.getConnection(JDBCURLSQLite);
+		statement = connection.createStatement();
 		statement.setQueryTimeout(30); 
 	}
 

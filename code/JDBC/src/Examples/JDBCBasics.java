@@ -135,7 +135,7 @@ public class JDBCBasics {
 		} catch (SQLException e) {
 			System.out.println("Something went wrong... " + e.getMessage());
 		} 
-
+		
 		try {
 			System.out.println("\n- updating database...");
 			testUpdate();
@@ -157,6 +157,8 @@ public class JDBCBasics {
 			System.out.println("Something went wrong... " + e.getMessage());
 		} 
 
+		System.exit(0);
+		
 		try {
 			System.out.println("\n- test updateable...");
 			testUpdateable();
