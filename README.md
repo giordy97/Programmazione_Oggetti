@@ -113,9 +113,7 @@ The final exam of this course is a discussion about a project to be developed at
 
 At the final discussion, it is expected:
 
-* to pass an oral exam (3 short questions, see main topics above) (3pt)
-
-* to give a short presentation (5 slides) about the project (3pt)
+* to pass a written test (3 questions, see main topics above) (6pt)
 
 * to successfully discuss about the structure, the internals and engineering choices of the project (24pt)
 
